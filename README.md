@@ -10,7 +10,7 @@ npm install --save-dev jest @types/jest ts-jest typescript
 ```
 npm install -g jest
 ```
-3. ติดตั้ง tsconfig.json
+3. update package.jsonเพื่อให้typescriptทำงานกับjest
 ```
 npm install -g typescript
 ```
