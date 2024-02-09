@@ -1,11 +1,19 @@
 {
   "name": "typescript-project",
   "version": "1.0.0",
-  "description": "1. เรื่มต้นด้วยการสร้าง package.json โดยใช้ \r ```\r npm init -y\r ```\r 2. ติดตั้งTypeScript, Mocha, และ Chai \r ```\r npm install typescript mocha chai @types/mocha @types/chai --save-dev\r ```\r 3. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrcและmerge.test.tsในtest\r     - merge.ts ทำหน้าที่\r     - merge.test.ts ทำหน้าที่",
+  "description": " ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.0.3",
+    "mocha": "^10.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }
