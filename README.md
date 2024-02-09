@@ -10,6 +10,10 @@ npm init
 ```
 npm install typescript mocha chai @types/mocha @types/chai ts-node --save-dev
 ```
-3. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrcและmerge.test.tsในtest
+3. ติดตั้ง tsconfig.json
+```
+npm install -g typescript
+```
+4. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrcและmerge.test.tsในtest
     - merge.ts ทำหน้าที่
     - merge.test.ts ทำหน้าที่
