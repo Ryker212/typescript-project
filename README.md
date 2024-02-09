@@ -21,6 +21,6 @@ npm install -g typescript
 ```
 
 "scripts": {
-    "test": "mocha --require ts-node/register test/**.test.ts"
+    "test": "mocha --require ts-node/register test/**/*.ts"
   }
 ```
