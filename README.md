@@ -12,15 +12,18 @@ npm install -g jest
 ```
 3. update package.jsonเพื่อให้typescriptทำงานกับjest
 ```
-npm install -g typescript
-```
-4. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrcและmerge.test.tsในtest
-    - merge.ts ทำหน้าที่
-    - merge.test.ts ทำหน้าที่
-5. update package.son ให้script
-```
-
-"scripts": {
-    "test": "mocha --require ts-node/register test/**/*.ts"
+ "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": ["ts", "tsx", "js"]
   }
+```
+4. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrc และmerge.test.tsในtest
+    - merge.ts ทำหน้าที่เป็น Function ในการทดสอบ unit test
+    - merge.test.ts ทำหน้าที่ ทดสอบ Function ของ unit test
+5. ทดสอบunit testด้วยjest
+```
+    jest
 ```

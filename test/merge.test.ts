@@ -1,4 +1,3 @@
-//FizzBuzz.test.ts
 /// <reference types="jest" />
 
 import {merge} from "../src/merge";
