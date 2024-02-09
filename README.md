@@ -2,13 +2,13 @@
 
 ## ขั้นตอนการ setup
 
-1. เรื่มต้นด้วยการสร้าง package.json โดยใช้ 
+1. เรื่มต้นด้วยการติดตั้งtypescriptกับjest โดยใช้ 
 ```
-npm init
+npm install --save-dev jest @types/jest ts-jest typescript
 ```
-2. ติดตั้งTypeScript, Mocha, และ Chai 
+2. ติดตั้งjestเป็นglobal package
 ```
-npm install typescript mocha chai @types/mocha @types/chai ts-node --save-dev
+npm install -g jest
 ```
 3. ติดตั้ง tsconfig.json
 ```
