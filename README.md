@@ -17,3 +17,10 @@ npm install -g typescript
 4. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrcและmerge.test.tsในtest
     - merge.ts ทำหน้าที่
     - merge.test.ts ทำหน้าที่
+5. update package.son ให้script
+```
+
+"scripts": {
+    "test": "mocha --require ts-node/register test/**.test.ts"
+  }
+```
