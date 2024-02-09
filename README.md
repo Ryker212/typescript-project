@@ -22,7 +22,7 @@ npm install -g jest
 ```
 4. สร้างFolder src,test พร้อมกับสร้างFile merge.tsในsrc และmerge.test.tsในtest
     - merge.ts ทำหน้าที่เป็น Function ในการทดสอบ unit test
-    - merge.test.ts ทำหน้าที่ ทดสอบ Function ของ unit test
+    - merge.test.ts ทำหน้าที่ ทดสอบ Function ของ unit test ว่า Function นั้นมีค่าเท่ากับการsortจริงหรือไม่
 5. ทดสอบunit testด้วยjest
 ```
     jest
